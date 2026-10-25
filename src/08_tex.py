@@ -15,7 +15,7 @@ def c(x):               # thousands separator
     return f"{x:,}"
 M = {}
 d = r["data"]
-M.update(NCells=c(d["cells_90m"]), NCellYears=c(d["cell_years"]), NNbhd=d["neighborhoods"],
+M.update(NCells=c(es["n_cells"]), NGridCells=c(d["cells_90m"]), NCellYears=c(d["cell_years"]), NNbhd=d["neighborhoods"],
          NScenes=d["scenes_searched"], NScenesUsed=d["scenes_used"], NInventory="193,009",
          NYoungA=c(d["young_trees_le_1_5in"]), NYoungB=c(d["young_trees_1_5_3in"]), NMid=c(d["trees_3_6in"]),
          NMature=c(d["mature_gt_6in"]), NVacant=c(d["vacant_street_sites"]))

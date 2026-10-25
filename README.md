@@ -7,11 +7,11 @@ Sahil, Johns Hopkins University. Working draft, October 2026.
 
 ## Headline result
 
-Each young street tree (trunk ≤ 1.5 in in the 2017–18 city inventory, so planted roughly 2014–17) lowered the summer surface temperature of its 90 m surroundings by **0.026 °C by 2022–25** relative to 2006–09 (95% CI 0.005–0.047 °C), with **no change before planting** (pre-trend test p = 0.63). The cooling appears only after 2018 and grows as the trees mature. A block with five new saplings is about 0.13 °C cooler.
+Each young street tree (trunk ≤ 1.5 in in the 2017–18 city inventory, so planted roughly 2014–17) lowered the summer surface temperature of its 90 m surroundings by **0.026 °C by 2022–25** relative to 2006–09 (95% CI 0.005–0.047 °C), with **no detectable change before planting** (pre-trend test p = 0.63). The cooling appears only after 2018 and grows as the trees mature. A 90 m cell with five new saplings (an ordinary planted block face) is about 0.13 °C cooler.
 
-That size is what simple physics predicts: a young crown shades roughly 0.2% of a 90 m cell, and shade is 10–15 °C cooler than sunlit pavement, giving 0.02–0.03 °C per tree.
+That size is what simple physics predicts: a young crown shades roughly 0.2% of a 90 m cell, and if shade is roughly 10–15 °C cooler than sunlit pavement (a rough assumption, not a measurement), that gives 0.02–0.03 °C per tree.
 
-The naive comparison of whole neighborhoods fails: neighborhoods that later got more trees were already cooling in 2009–12 (pre-trend p < 0.001), the selection problem this design exists to solve. See `outputs/figures/fig2_design_comparison.png`.
+The naive comparison of whole neighborhoods fails: neighborhoods that got more trees in 2013–20 were already cooling in 2009–12, before those plantings (pre-trend p < 0.001), the selection problem this design exists to solve. See `outputs/figures/fig2_design_comparison.png`.
 
 ## Design in one paragraph
 
