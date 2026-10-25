@@ -52,6 +52,7 @@ bash paper/build.sh                     # optional: rebuild the PDF (needs LaTeX
 - **Every quoted number is checked.** `src/09_verify.py` recomputes the headline estimates from `outputs/` and confirms the README, methods note and paper quote exactly those values. The paper never contains a typed number: all of them come from `paper/macros.tex`, written by `src/08_tex.py`.
 - **Clean-machine rebuild on every push.** The `reproduce` GitHub Actions workflow installs the locked environment on a fresh Ubuntu runner, rebuilds everything from the packed data and runs the checks. The badge above shows the latest result, and each run uploads its `VERIFICATION.md`.
 - **Current report:** [`docs/VERIFICATION.md`](docs/VERIFICATION.md), with environment versions and a SHA-256 manifest of every output.
+- **Clean-room record:** a fresh clone rebuilt in a new environment matched the committed results to within 4 × 10⁻¹⁵ ([`docs/REPRODUCTION_LOG.md`](docs/REPRODUCTION_LOG.md)).
 
 ## Robustness (2022–25 effect per young tree, °C, 95% CI)
 
