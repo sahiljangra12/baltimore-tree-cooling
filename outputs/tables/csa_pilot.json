@@ -1,0 +1,18 @@
+{
+ "n_csa": 55,
+ "years": [
+  2006,
+  2025
+ ],
+ "dose_mean_per_km2": 210.5,
+ "dose_range_per_km2": [
+  9.3,
+  1062.5
+ ],
+ "trees_2013_2020_total": 30792,
+ "mean_coef_2021_2025_per_100_trees_km2": -0.2579,
+ "share_2021_2025_coefs_negative": 1.0,
+ "mean_coef_2009_2012_pre": -0.1027,
+ "pretrend_wald_2009_2012": 86.0,
+ "pretrend_p": 0.0
+}

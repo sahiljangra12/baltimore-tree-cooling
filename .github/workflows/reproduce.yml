@@ -1,0 +1,32 @@
+name: reproduce
+
+# Rebuilds every table and figure from the packed raw data on a clean machine,
+# then runs the verification checks. A green badge means the numbers in the
+# README and paper were regenerated from scratch and matched.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements-lock.txt
+      - name: Rebuild everything from raw data
+        run: bash run_all.sh
+      - name: Verify inputs, outputs and every quoted number
+        run: python3 src/09_verify.py
+      - name: Upload verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification
+          path: |
+            docs/VERIFICATION.md
+            outputs/

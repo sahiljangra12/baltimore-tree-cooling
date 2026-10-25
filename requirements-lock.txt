@@ -1,0 +1,8 @@
+# exact versions used to produce the committed outputs (24-25 Oct 2026)
+numpy==2.2.6
+pandas==2.3.3
+pyfixest==0.60.0
+statsmodels==0.15.0
+scipy==1.15.3
+shapely==2.1.2
+matplotlib==3.10.9

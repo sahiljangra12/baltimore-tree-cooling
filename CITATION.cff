@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Do New Street Trees Cool the City? Within-Neighborhood Evidence from Baltimore, 2006-2025"
+type: software
+authors:
+  - name: "Sahil"
+    affiliation: "Johns Hopkins University"
+    email: "sfnu1@jh.edu"
+date-released: 2026-10-25
+version: "0.1.0"
+repository-code: "https://github.com/sahiljangra12/baltimore-tree-cooling"
+license: MIT
+keywords: [urban heat, street trees, event study, Landsat, Baltimore, program evaluation]
