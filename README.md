@@ -77,6 +77,11 @@ The year-FE-only estimate is 3–4 times larger, which shows how much neighborho
 4. **Survivorship.** Only trees alive in 2017–18 are counted, which biases toward successful plantings.
 5. One of 151 Landsat scenes (LC08 2022-08-04) failed to read and is excluded.
 
+## Related work
+
+- **[Baltimore Heat Atlas](https://github.com/sahiljangra12/baltimore-heat-atlas)**: the tract-level heat vulnerability index this study grew out of.
+- **[Charm City Pulse](https://github.com/sahiljangra12/charm-city-pulse)** ([live app](https://sahiljangra12.github.io/charm-city-pulse/)): a public app that shows residents their block's tree shade and points them to TreeBaltimore's free street trees.
+
 ## Citation and license
 
 Cite via [`CITATION.cff`](CITATION.cff). Code is MIT-licensed; the paper text and figures are CC BY 4.0; the data derive from public sources listed in the provenance note.
